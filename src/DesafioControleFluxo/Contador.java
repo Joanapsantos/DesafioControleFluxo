@@ -13,8 +13,7 @@ public class Contador {
         try{
             contar(parametroUm, parametroDois);
         } catch(ParametrosInvalidosException e){
-            System.err.println(e.getMessage());
-            //System.out.println("O segundo parâmetro deve ser maior que o primeiro");
+            System.out.println("O segundo parâmetro deve ser maior que o primeiro");
         }
     }
 
